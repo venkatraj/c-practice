@@ -18,8 +18,8 @@ int main() {
   total_marks = m_subject1 + m_subject2 + m_subject3 + m_subject4 + m_subject5;
   percentage = total_marks / 5.0;
 
-  printf("Total marks = %d", total_marks);
-  printf("Percentage = %g", percentage);
+  printf("Total marks = %d\n", total_marks);
+  printf("Percentage = %g\n", percentage);
 
   return 0;
 }
