@@ -8,6 +8,7 @@ int main() {
   puts("Enter the year: ");
   scanf("%d", &year);
   // Formula
+  // http://mathforum.org/library/drmath/view/55837.html
   // N = d + 2m + [3(m+1)/5] + y + [y/4] - [y/100] + [y/400] + 2
   year -= 1;
   tdays = 1 + (2 * 13) + (3 * (13+1) / 5) + year + (year / 4) - (year / 100) + (year / 400) + 2;
